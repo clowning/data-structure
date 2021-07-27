@@ -1,11 +1,11 @@
 #include<stdlib.h>
 #include<stdio.h>
-typedef struct lNode 
+typedef struct LNode 
 {
     int data;
     struct LNode *next;
-}*LinkList,lNode;
-LNode * GetElemByLocation(LinkList L,int i){
+}*LinkList,LNode;
+LNode *GetElemByLocation(LinkList L,int i){
     int  j = 1;
     LNode *p ;
     return p;
