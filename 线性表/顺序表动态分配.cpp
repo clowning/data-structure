@@ -26,10 +26,11 @@ void IncreaseSize(SeqList &L,int len){
 }
 
 int main(){
+
     SeqList L;   //声明一个顺序表
-    InitSize(L);  //初始化顺序表
+    InitList(L);  //初始化顺序表
     L.data[1]=1;
     L.data[2]=2;
     IncreaseSize(L,5);
-    return 0 
+    return 0 ;
 }
